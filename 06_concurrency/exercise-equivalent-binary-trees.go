@@ -11,4 +11,5 @@ func Walk(t *tree.Tree, ch chan int)
 func Same(t1, t2 *tree.Tree) bool
 
 func main() {
+	// TODO: Implement Walk and Same
 }
