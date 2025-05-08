@@ -13,6 +13,8 @@ func say(s string) {
 }
 
 func main() {
+	// goroutineを使って並行処理
 	go say("world")
+	// 通常の関数呼び出し
 	say("hello")
 }
