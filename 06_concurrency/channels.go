@@ -12,6 +12,7 @@ func sum(s []int, c chan int) {
 
 func main() {
     // TODO: 処理内容の説明を追加する
+	// 配列を作成
 	s := []int{7, 2, 8, -9, 4, 0}
 
 	c := make(chan int)
